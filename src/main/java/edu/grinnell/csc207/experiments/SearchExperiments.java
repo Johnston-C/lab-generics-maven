@@ -25,8 +25,8 @@ public class SearchExperiments {
     PrintWriter pen = new PrintWriter(System.out, true);
 
     // Set up a few arrays to search.
-    Object[] strings =
-        new Object[] {"alpha", "bravo", "charlie", "delta", "echo", "foxtrot",
+    String[] strings =
+        new String[] {"alpha", "bravo", "charlie", "delta", "echo", "foxtrot",
             "golf", "hotel", "india", "juliett", "kilo", "lima", "mike",
             "november", "oscar"};
     Integer[] numbers =
