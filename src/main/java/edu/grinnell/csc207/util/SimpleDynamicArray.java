@@ -49,8 +49,10 @@ public class SimpleDynamicArray<T> implements DynamicArray<T> {
   public void set(int i, T val) {
     // If the array is not big enough, expand it
     if (this.values.length <= i) {
+      // System.err.printf("Array expanded from %d to %d\n", this.values.length,this.values.length*2);
       int newsize = this.values.length * 2;
       while (newsize <= i) {
+        // System.err.printf("Array expanded from %d to %d\n", newsize,newsize*2);
         newsize *= 2;
       } // while
       this.values = Arrays.copyOf(this.values, newsize);
