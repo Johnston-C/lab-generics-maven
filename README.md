@@ -12,10 +12,10 @@ You can run experiments on predicates and searching with the class
 Authors:
 
 * Samuel A. Rebelsky (original code)
-* Your Name Here (updates)
-* Your Name Here (updates)
+* Cade Johnston
+* Nicky Moreno
 
-The code may be found at <https://github.com/USERNAME/lab-generics-maven>.
+The code may be found at <https://github.com/Johnston-C/mp-blocks-maven>.
 
 The original code this is based on can be found at
 <https://github.com/Grinnell-CSC207/lab-generics-maven>.
